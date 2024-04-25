@@ -5,7 +5,7 @@
 int led1 = 13;
 int delayTime = 1000;
 
-RH_ASK driver(2000, 2, 4, 5);
+RH_ASK driver(2000, 2, 4, 5);//2 is the receiver pin, 4 is the transmitter pin
 
 DFRobot_SCD4X SCD4X(&Wire, /*i2cAddr = */SCD4X_I2C_ADDR);
 
