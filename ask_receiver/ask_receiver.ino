@@ -1,7 +1,7 @@
 #include <RH_ASK.h>
 #include <SPI.h> // Not actualy used but needed to compile
 
-RH_ASK driver(2000, 2, 4, 5);
+RH_ASK driver(2000, 2, 4, 5);//4 is the transmitter pin, 2 is the receiver pin
 
 
 void setup()
